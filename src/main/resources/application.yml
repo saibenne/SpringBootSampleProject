@@ -1,0 +1,15 @@
+server:
+  port: 8092
+spring:
+  datasource:
+    username: saibenne
+    password: root
+    url: jdbc:mysql://localhost:8864/orgago
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  data:
+    mongodb:
+      uri: mongodb+srv://saibenne:9573879821@cluster0.wg5hwhv.mongodb.net/?retryWrites=true&w=majority
+      database: royaltheorem
